@@ -67,7 +67,7 @@
 =========================================================================*/
 
 /**==================== Top Bar ======================**/
-/* .top_bar{
+.top_bar{
     width: 100%;
     position: relative;
     background: #111111;
@@ -90,7 +90,7 @@
 .top_bar_info p i{
     margin-right: 10px;
 }
-*/
+
 .top_bar_social{
     text-align: right;
     position: relative;
@@ -133,6 +133,120 @@
     background: #D13E75;
 } 
 
+
+
+/* HSD PMG RATE */
+.singlePricing{
+    box-shadow:0 3px 3px rgba(0, 0, 0, 0.15);
+    margin-top: 30px;
+    position: relative;
+}
+.pricHead{
+    background: #F7941d;
+    color: #fff;
+    padding-top: 40px;
+    position: relative;
+    margin-bottom: 62px;
+}
+.pricHead::after {
+    border-left: 131.5px solid transparent;
+    border-right: 131.5px solid transparent;
+    border-top: 30px solid #F7941d;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    width: 0;
+}
+.pricHead h1,
+.pricHead h2{
+    font-family:"Roboto Slab",serif;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1.04px;
+}
+.pricHead h1{
+    font-size: 15px; 
+    margin-bottom: 13px;
+}
+.pricHead h2{
+    font-size: 48px;
+    font-weight: 700; 
+    padding-bottom: 10px;
+}
+.pricHead h2 span{
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-left: -10px;
+}
+.priceBody{}
+.priceBody ul{}
+.priceBody ul li{
+    padding: 10px 0;
+}
+.pricFoot {
+    padding-bottom: 50px;
+    padding-top: 24px;
+}
+.singlePricing.active .pricHead{
+    background: #29c2e1;
+    padding-bottom: 30px
+
+}
+.singlePricing.active .pricHead:after{
+    border-left: 131.5px solid transparent;
+    border-right: 131.5px solid transparent;
+    border-top: 30px solid #29c2e1;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    width: 0;
+    bottom: -30px;
+}
+.singlePricing.active {
+    margin-top: 0;
+}
+/* HSD PMG RATE */
+
+
+.team{
+    min-height: 100vh;
+    background-color: #f5ebeb;
+    line-height: 1.5;
+    padding:80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.rowin{
+    gap: 20px;
+}
+.tem{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.temimg{
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+.img-box{
+    height: 220px;
+    width: 220px;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+.teamed{
+    text-align: center;
+    font-weight: 600;
+}
+/* Team END */
 /**==================== Header ======================**/
 .header{
     position: relative;
