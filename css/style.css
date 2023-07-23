@@ -829,7 +829,7 @@
     position: relative;
     width: 100%;
     height: 70vh;
-    background-image: url("../images/abt-us.jpg");
+    background-image: url(https://res.cloudinary.com/dxf1gijtg/image/upload/v1690138701/abt-us_qnexzx.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -924,7 +924,7 @@
 
 /**===================== Retail Network ======================**/
 .servicebackimg{
-    background-image: url(../images/depott.jpg);
+    background-image: url(https://res.cloudinary.com/dxf1gijtg/image/upload/v1690135503/depott_xer0lh.jpg);
     background-color: rgba(123, 0, 0, 0.2);
     background-size: cover;
     background-position: center;
@@ -1047,7 +1047,7 @@ button.active{
 /**===================== Media Gallery End ======================**/
 /**===================== Products Start ======================**/
 .productbackimg{
-    background-image: url(../images/product1.jpg);
+    background-image: url(https://res.cloudinary.com/dxf1gijtg/image/upload/v1690140338/product1_kzpcnm.jpg);
     /* background-color: rgba(123, 0, 0, 0.5); */
     background-size: cover;
     background-position: center;
@@ -1174,29 +1174,6 @@ button.active{
     color: #333333;
 }
 
-/* .servicesList{}
-.servicesList li {
-    color: #333333;
-    letter-spacing: 0.6px;
-    line-height: 0.8;
-    margin: 28px 10px;
-    padding-left: 18px;
-    position: relative;
-    font-size: 15px;
-    font-weight: 300;
-}
-.servicesList li:last-child{
-    margin-bottom: 0;
-}
-.servicesList li::after {
-    background: #333333 none repeat scroll 0 0;
-    content: "";
-    height: 4px;
-    left: 0;
-    position: absolute;
-    top: 5px;
-    width: 4px;
-} */
 /*============================Social======================================*/
 .socialsec{
     background: #282828;
@@ -2875,7 +2852,7 @@ button.active{
 
 .our-journey{
     /* position: relative; */
-    background: url(../images/bg/tt.jpg);
+    background: url(https://res.cloudinary.com/dxf1gijtg/image/upload/v1690136553/tt_mc9yp4.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -2931,7 +2908,7 @@ button.active{
    
 
 .twitterfeeds4{
-    background: url(../images/depott.jpg) no-repeat fixed center center/cover;
+    background: url(https://res.cloudinary.com/dxf1gijtg/image/upload/v1690135503/depott_xer0lh.jpg) no-repeat fixed center center/cover;
     padding-bottom: 140px
 }
 .singleTwitt4{
